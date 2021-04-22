@@ -1,0 +1,67 @@
+*{
+    font-family: "Lucida Console" ;
+}
+header {
+    background-color: #FFDFFE;
+    padding-top: 0;
+
+
+
+}
+header h2 {
+    color: Black;
+    border-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    float: top;
+    top: -10px;
+}
+header p{
+    text-align: center;
+}
+header img{
+    position: sticky;
+    top: -10px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+.navbar-nav.navbar-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: safe;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+}
+.navbar-nav > li{
+    padding-left:50px;
+    padding-right:50px;
+}
+.card-deck-wrapper {
+    display: flex;
+    padding-left: 700px; /* Added */
+    float: top; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+
+
+footer p{
+    top:500px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    float: bottom;
+
+
+}
